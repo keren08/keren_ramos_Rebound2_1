@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Metodologia BEM</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__items"><a  class="navigation__item" href="#">HostelsPages</a></li>
+                <li class="navigation__items"><a  class="navigation__item" href="#">Home</a></li>
+                <li class="navigation__items"><a  class="navigation__item" href="#">About us</a></li>
+                <li class="navigation__items"><a  class="navigation__item"  href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <fieldset class="company">
+            <h1 class="company__title">HostelsPage</h1>
+            <p class="company__slogan">Your site for booking hostels around the world</p>
+        </fieldset>
+
+       <form action="#" class="form">
+
+        <section class="form__questions">
+            <label for="" class="questions__title">where do you want to go?</label>
+            <label for="">
+                <input type="text" class="questions__input">
+            </label>
+        </section>
+
+        <section class="form__questions">
+            <label for="" class="questions__title">when?</label>
+
+            <div class="questions__container">
+            <label for="" class="questions__title">
+                From:
+                <input type="text" class="questions__input questions__input--size--med">
+            </label>
+            <label for="" class="questions__title">
+                To:
+                <input type="text" class="questions__input questions__input--size--med">
+            </label>
+        </div>
+
+        </section>
+
+        <section class="form__questions">
+            <label for="" class="questions__title">How many people?</label>
+            <label for="">
+                <input type="text" class="questions__input questions__input--size--sm">
+            </label>
+            <label for="" class="questions__title">adults</label>
+            <label for="">
+                <input type="text" class="questions__input questions__input--size--sm">
+            </label>
+            <label for="" class="questions__title">children</label>
+        </section>
+        
+        <section class="form__button">
+            <button class="button__search">Search</button>
+        </section>
+
+       </form>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__copy"><p>All rights reserved</p></section>
+        <section class="footer__social">
+            <p class="social__item">Instagram</p>
+            <p class="social__item">Facebook</p>
+            <p class="social__item">Twitter</p>
+        </section>
+    </footer>
+    
+</body>
+</html>
